@@ -1,0 +1,7 @@
+{{define "todos"}}
+<ul class="list">
+	{{ range .Todos }}
+	<li>{{ .Name }}</li>
+	{{ end }}
+</ul>
+{{end}}
